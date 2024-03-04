@@ -37,7 +37,11 @@ plt.legend(title='Categorias', loc='lower center')
 # Adicionar grade ao gráfico com zorder mais alto
 plt.grid(alpha=0.5, zorder=1)
 
+# Salvando imagem do gráfico no windows (C:\Users\Igor CARMO)
+plt.savefig('Condomínio Ambrosina Sampaio 2024.png')
+
 # Mostrar o gráfico
 plt.show()
 
 display(df)
+
