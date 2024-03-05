@@ -16,7 +16,7 @@ df = pd.DataFrame({
     'Copasa (R$)': Copasa,
     'Cemig (R$)': Cemig,
     'Limpeza (R$)': Limpeza,
-    'Material_Limpeza (R$)': Material_Limpeza,
+    'Material Limpeza (R$)': Material_Limpeza,
 }, index=categorias)
 
 # Criar gráfico de barras empilhadas
